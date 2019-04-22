@@ -1,8 +1,8 @@
 import praw
 import json
 import os
-reddit = praw.Reddit(user_agent='Comment Extraction (by /u/AspookyPelican)',
-                     client_id='TLrPMNly8s4UvQ', client_secret="7pNBuoNqXBixZ1yQiVxGQhr62C8")
+reddit = praw.Reddit(user_agent='Comment Extraction (by /u/YourUsername)',
+                     client_id='myID', client_secret="mySecret")
 infile=open("1LinkPerLineFixed","r",encoding="utf-8")
 listOLines=infile.readlines()
 infile.close()
